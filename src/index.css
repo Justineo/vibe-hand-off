@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-navy-950: #050510;
+  --color-navy-900: #0a0a1a;
+  --color-navy-800: #111133;
+  --color-navy-700: #1a1a4e;
+  --color-navy-600: #2a2a6e;
+
+  --color-figma-400: #a78bfa;
+  --color-figma-500: #8b5cf6;
+  --color-figma-600: #7c3aed;
+
+  --color-proto-400: #fbbf24;
+  --color-proto-500: #f59e0b;
+  --color-proto-600: #d97706;
+
+  --color-ocean-400: #38bdf8;
+  --color-ocean-500: #0ea5e9;
+  --color-ocean-600: #0284c7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background: var(--color-navy-950);
+  color: #e2e8f0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-figma-500);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-navy-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-600);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-figma-500);
+}
