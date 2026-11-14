@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { motion, useInView } from 'framer-motion'
+import { motion, useInView } from 'motion/react'
 import { useRef, useState } from 'react'
 import { ShieldAlert, ChevronDown } from 'lucide-react'
 
