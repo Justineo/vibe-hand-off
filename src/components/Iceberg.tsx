@@ -1,4 +1,4 @@
-import { motion, useInView, useScroll, useTransform } from 'framer-motion'
+import { motion, useInView, useScroll, useTransform } from 'motion/react'
 import { useRef } from 'react'
 import { Eye, EyeOff } from 'lucide-react'
 

@@ -1,4 +1,4 @@
-import { motion, useInView, AnimatePresence } from 'framer-motion'
+import { motion, useInView, AnimatePresence } from 'motion/react'
 import { useRef, useState, useEffect, useCallback } from 'react'
 import { Grid3x3, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
 
